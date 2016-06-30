@@ -9,19 +9,19 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var VtbComponet = (function () {
-    function VtbComponet() {
-        this.test = "VtbComponet";
+var InputComponet = (function () {
+    function InputComponet() {
+        this.test = "InputComponet";
         this.arr = [1, 2, 3, 4, 5];
     }
-    VtbComponet = __decorate([
+    InputComponet = __decorate([
         core_1.Component({
             selector: 'vtb-input',
             template: '<p>vtb-input</p>'
         }), 
         __metadata('design:paramtypes', [])
-    ], VtbComponet);
-    return VtbComponet;
+    ], InputComponet);
+    return InputComponet;
 }());
-exports.VtbComponet = VtbComponet;
+exports.InputComponet = InputComponet;
 //# sourceMappingURL=input.component.js.map
