@@ -1,7 +1,7 @@
 ﻿import { Component } from '@angular/core';
 @Component({
     selector: 'my-app',
-    template: '<h1>My 1 First Angular 2 App [{{test}}]</h1><p>p</p>[<ul><li *ngFor="let item of arr" >{{item}}</li></ul>]'
+    template: '<h3>Angular 2 App [{{test}}]</h3><p>p</p>[<ul><li *ngFor="let item of arr" >{{item}}</li></ul>]'
 })
 export class AppComponent {
     test = "test";
